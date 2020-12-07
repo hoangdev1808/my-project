@@ -2,7 +2,6 @@ import {
 	src,
 	dest
 } from "gulp";
-import sass from "gulp-sass";
 import concat from "gulp-concat";
 import plumber from "gulp-plumber";
 import cssnano from "cssnano";
@@ -17,11 +16,9 @@ export const cssCore = () => {
 	let glob = JSON.parse(readFileSync("config.json"))
 	return src(glob.css, {
 			allowEmpty: true
-	}
-	["src/plugins/**"])
-		.pipe(sass().on("error", sass.logError))
+		})
 		.pipe(plumber())
-		.pipe(concat("plugin.min.css"))
+		.pipe(concat("plugins.min.css"))
 		.pipe(postcss([
 			autoprefixer({
 				browsers: ["last 4 version", "IE 9"],

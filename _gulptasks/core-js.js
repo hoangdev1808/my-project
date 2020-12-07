@@ -15,7 +15,7 @@ export const jsCore = () => {
 			allowEmpty: true
 		})
 		.pipe(plumber())
-		.pipe(concat("plugin.min.js"))
+		.pipe(concat("plugins.min.js"))
 		.pipe(uglify())
 		.pipe(dest("dist/js"))
 };

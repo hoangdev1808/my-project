@@ -4,17 +4,16 @@
 	],
 	"js": [
 		"bower_components/jquery/dist/jquery.min.js",
-		"bower_components/bootstrap/dist/js/bootstrap.min.js",
-		"bower_components/swiper/dist/js/swiper.min.js",
-		"bower_components/fancybox/dist/jquery.fancybox.min.js",
-		"bower_components/aos/dist/aos.js"
+		"src/_plugins/ls.unveilhooks.min.js",
+		"src/_plugins/mapping.js",
+		"src/_plugins/swiper/swiper-bundle.min.js",
+		"src/_plugins/Tabslet.js",
+		"bower_components/lazysizes/lazysizes.js",
+		"bower_components/fancybox/dist/jquery.fancybox.min.js"
 	],
 	"css": [
-		"bower_components/bootstrap/dist/css/bootstrap.min.css",
-		"bower_components/swiper/dist/css/swiper.min.css",
-		"bower_components/fancybox/dist/jquery.fancybox.min.css",
-		"bower_components/aos/dist/aos.css",
-		"node_modules/daterangepicker/daterangepicker.css",
-		"node_modules/@fortawesome/fontawesome-free/css/all.css"
+		"src/_plugins/font.css",
+		"src/_plugins/swiper/swiper-bundle.min.css",
+		"bower_components/fancybox/dist/jquery.fancybox.min.css"
 	]
 }

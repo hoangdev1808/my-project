@@ -43,7 +43,7 @@ export const server = () => {
 	], series(cleanImage, copyImage));
 
 	watch([
-		"src/plugin/**/**.css", "src/plugin/**/**.js", "config.json"
+		"src/_plugins/**/**.css", "src/_plugins/**/**.js", "config.json"
 	], parallel(jsCore, cssCore));
 
 	watch([

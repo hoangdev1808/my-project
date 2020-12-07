@@ -15,10 +15,13 @@
 		"tests"
 	],
 	"dependencies": {
-		"fancybox": "^3.5.7",
-		"jquery": "^3.5.1",
-		"bootstrap": "^4.5.0",
-		"swiper": "^4.5.0",
-		"aos": "^2.3.4"
+		"jquery": "3.5.1",
+		"fancybox": "3.5.7",
+		"plyr": "3.5.4",
+		"mdi": "4.5.95",
+		"font-awesome": "5.15.1",
+		"linearicons": "1.0.2",
+		"lazysizes": "5.1.0",
+		"jssocials": "^1.5.0"
 	}
 }

@@ -12,6 +12,7 @@ import autoprefixer from "autoprefixer";
 
 export const sassTask = () => {
 	return src([
+			"src/components/_core/_**.sass",
 			"src/components/_core/**.sass",
 			"src/components/_global/**.sass",
 			"src/components/**/**.sass",
